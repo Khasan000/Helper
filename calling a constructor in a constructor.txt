@@ -1,0 +1,10 @@
+Data(int day, int mouth, int year) 
+	{
+		this->day = day;
+		this->mouth = mouth;
+		this->year = year;
+	}
+	Data(int year) : Data(1,1,year) <-- тут мы вызвали конструктор который находится выше. В скобках мы указали что при вызове этого конструктора переменные day(не this->day) приравниваем к 1, mouth приравниваем к 1(не this->day), а year остается таким же.
+	{
+
+	}
